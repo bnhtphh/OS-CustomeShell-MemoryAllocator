@@ -1,0 +1,43 @@
+access
+arch_prctl
+brk
+close
+execve
+fstat
+futex
+getdents64
+getrandom
+ioctl
+mmap
+mprotect
+munmap
+openat
+prctl
+pread64
+prlimit64
+read
+rseq
+set_robust_list
+set_tid_address
+statfs
+total
+write
+
+
+Total unique system calls: 23
+
+Command: cat /etc/passwd
+New system calls:
+* exit_group
+* fadvise64
+
+Command: date
+New system calls:
+* lseek
+
+
+Overlap System calls:
+close 
+fstat
+read
+write

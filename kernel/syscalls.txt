@@ -1,0 +1,6 @@
+System Call:
+1. User call system call (read(), write())
+2. Kernel handles system call in syscall.c
+3. syscall look up usinng syscall call number
+4. Approriate func is call
+5. Return 
